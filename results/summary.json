@@ -1,0 +1,149 @@
+{
+ "de": {
+  "points": 48,
+  "mean_cf": 0.12962852614107137,
+  "yield_kwh_per_kwp": 1138.6569736231709,
+  "decorrelation_km_ramps": 90.25366064029127,
+  "decorrelation_km_levels": 283.4027247101325,
+  "ramp_sd_rel_all_points": 0.45440262931626757,
+  "ramp_p99_rel_all_points": 0.5625085802437069,
+  "ramp_max_rel_all_points": 0.23747042718241815,
+  "ramp_sd_rel_8_points": 0.5135443360932385,
+  "hosting_kwp_per_house": {
+   "mean_profile": 18.984375,
+   "single_point_mean": 17.6123046875,
+   "single_point_min": 16.71875,
+   "single_point_max": 18.203125,
+   "mean_profile_vs_single_pct": 7.790407540892708,
+   "mean_profile_vs_lowest_pct": 13.551401869158886
+  }
+ },
+ "no": {
+  "points": 68,
+  "mean_cf": 0.11455043290923624,
+  "yield_kwh_per_kwp": 1006.211002674731,
+  "decorrelation_km_ramps": 84.63713732843352,
+  "decorrelation_km_levels": 267.3000835221378,
+  "ramp_sd_rel_all_points": 0.6223516030044054,
+  "ramp_p99_rel_all_points": 0.6611746859259602,
+  "ramp_max_rel_all_points": 0.49712313505936856,
+  "ramp_sd_rel_8_points": 0.66767783374322,
+  "hosting_kwp_per_house": {
+   "mean_profile": 17.578125,
+   "single_point_mean": 16.783088235294116,
+   "single_point_min": 16.328125,
+   "single_point_max": 17.890625,
+   "mean_profile_vs_single_pct": 4.737130339539997,
+   "mean_profile_vs_lowest_pct": 7.655502392344493
+  }
+ },
+ "snow": {
+  "de": {
+   "annual_loss_mean_pct": 0.14084716340597714,
+   "annual_loss_point_max_pct": 3.7031428536835054,
+   "annual_loss_point_min_pct": 0.0,
+   "monthly_loss_pct": {
+    "1": 0.6879861674169874,
+    "2": 0.23173195791162948,
+    "3": 0.1777219773495542,
+    "4": 0.0490803198909151,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0,
+    "11": 0.7666979566962162,
+    "12": 1.693655614717715
+   },
+   "corr_loss_elevation": 0.7358500431563915
+  },
+  "no": {
+   "annual_loss_mean_pct": 2.3994874003853806,
+   "annual_loss_point_max_pct": 11.246548846337722,
+   "annual_loss_point_min_pct": 0.0,
+   "monthly_loss_pct": {
+    "1": 22.50628716014179,
+    "2": 21.256721921753872,
+    "3": 2.759283649807187,
+    "4": 0.7623568018370497,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.324258076198658,
+    "10": 0.8035299590221867,
+    "11": 6.666452581328464,
+    "12": 11.612273041213294
+   },
+   "corr_loss_elevation": 0.7289893704114764
+  }
+ },
+ "validation": {
+  "50hertz": {
+   "scale_mw_per_kwp_unit": 15980.205784010168,
+   "corr": 0.9693188750948273,
+   "nrmse": 0.3810355777821798,
+   "bias_pct": -0.09068943975385782,
+   "ramp_sd_model": 0.10498277344188295,
+   "ramp_sd_measured": 0.11356408490297722,
+   "ramp_ratio_model_over_measured": 0.9244363966968461,
+   "corr_ramps": 0.5651019534888985,
+   "hours": 3342,
+   "points": 14
+  },
+  "amprion": {
+   "scale_mw_per_kwp_unit": 12038.762395883497,
+   "corr": 0.9464987479872008,
+   "nrmse": 0.5118895538573661,
+   "bias_pct": -1.0045427200219998,
+   "ramp_sd_model": 0.10876997361624159,
+   "ramp_sd_measured": 0.10674924407619808,
+   "ramp_ratio_model_over_measured": 1.0189296847722977,
+   "corr_ramps": 0.4368747596589181,
+   "hours": 3396,
+   "points": 5
+  },
+  "tennet": {
+   "scale_mw_per_kwp_unit": 20489.8047702204,
+   "corr": 0.9617800097631402,
+   "nrmse": 0.4200276722749507,
+   "bias_pct": 1.2420793590440191,
+   "ramp_sd_model": 0.09310864003280503,
+   "ramp_sd_measured": 0.1051688020859385,
+   "ramp_ratio_model_over_measured": 0.8853256686970863,
+   "corr_ramps": 0.5299093981674825,
+   "hours": 3412,
+   "points": 24
+  },
+  "transnetbw": {
+   "scale_mw_per_kwp_unit": 7309.124070092683,
+   "corr": 0.9464483281043636,
+   "nrmse": 0.49877476263841075,
+   "bias_pct": -0.9095215871128697,
+   "ramp_sd_model": 0.1197632574729929,
+   "ramp_sd_measured": 0.1557177566172779,
+   "ramp_ratio_model_over_measured": 0.7691046934830064,
+   "corr_ramps": 0.4832503115471075,
+   "hours": 3406,
+   "points": 5
+  },
+  "all": {
+   "scale_mw_per_kwp_unit": 56482.00418919941,
+   "corr": 0.9688103093171059,
+   "nrmse": 0.37842982753195686,
+   "bias_pct": 1.3706293967064753,
+   "ramp_sd_model": 0.08833356442284708,
+   "ramp_sd_measured": 0.10370287101733884,
+   "ramp_ratio_model_over_measured": 0.8517947821143539,
+   "corr_ramps": 0.5962159668907103,
+   "hours": 3406,
+   "points": 48
+  }
+ },
+ "measured_ramps_national": {
+  "note": "ENTSO-E DE-LU, ramps divided by the 99.9th percentile of production",
+  "sd_15min_ramp": 0.01800952959884559,
+  "sd_60min_ramp_of_hourly_mean": 0.070376220238049
+ }
+}

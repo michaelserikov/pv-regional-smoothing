@@ -1,0 +1,7 @@
+data/raw/
+__pycache__/
+*.egg-info/
+.venv/
+data/download.log
+data/dl_zone2.log
+results/run.log

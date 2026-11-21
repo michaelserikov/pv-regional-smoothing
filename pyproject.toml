@@ -1,0 +1,20 @@
+[project]
+name = "pvregional"
+version = "0.1.0"
+description = "Regional PV production profiles from ERA5 for Germany and southern Norway: spatial smoothing, snow losses, and hosting capacity of a low-voltage feeder"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.2", "numpy>=2.0", "scipy>=1.13", "matplotlib>=3.9", "pvlib>=0.11", "pandapower>=2.14", "simbench>=1.5"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
